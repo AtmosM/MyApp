@@ -52,6 +52,9 @@ class SysBuy(TemplateView):
     template_name = 'buy.html'
 class Practice1(TemplateView):
     template_name = 'pract1.html'
+
+class PracticeENG(TemplateView):
+    template_name = 'pract_eng.html'
 class EntitiesListView(ListView):
     """
     A view that displays a list of all entities (categories).
